@@ -23,7 +23,9 @@ export default function AppMainCenter() {
         fontWeight: '700',
         justifyContent: 'space-between',
         justifyItems: 'stretch',
-        display: 'flex'
+        display: 'flex',
+        flexDirection: 'column' ,
+        flexGrow: 1
       }}
     >
       <p>AppMainCenter1 - 메인 메뉴</p>

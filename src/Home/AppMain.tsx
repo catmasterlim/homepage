@@ -27,7 +27,8 @@ export default function AppMain() {
         justifyContent: 'space-between',
         justifyItems: 'stretch',
         display: 'flex',
-        flexDirection: 'column' 
+        flexDirection: 'column' ,
+        flexGrow: 1
       }}
     >
       <AppMainTop />
