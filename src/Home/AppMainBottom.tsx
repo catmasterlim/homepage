@@ -3,14 +3,14 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import ProTip from './ProTip';
+import ProTip from '../ProTip';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 
 
 
-export default function AppMainCenter() {
+export default function AppMainBottom() {
   return (
 
     <Box
@@ -26,7 +26,7 @@ export default function AppMainCenter() {
         display: 'flex'
       }}
     >
-      <p>AppMainCenter</p>
+      <p>AppMainBottom</p>
     </Box>
 
   );

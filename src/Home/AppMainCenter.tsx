@@ -3,14 +3,14 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import ProTip from './ProTip';
+import ProTip from '../ProTip';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 
 
 
-export default function AppRight() {
+export default function AppMainCenter() {
   return (
 
     <Box
@@ -26,7 +26,8 @@ export default function AppRight() {
         display: 'flex'
       }}
     >
-      <p>AppRight</p>
+      <p>AppMainCenter1 - 메인 메뉴</p>
+      <p>AppMainCenter2 - 최근 소식</p>
     </Box>
 
   );

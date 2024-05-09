@@ -3,17 +3,17 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import ProTip from './ProTip';
+import ProTip from '../ProTip';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
-import AppLeft from './AppLeft';
-import AppMain from './AppMain';
-import AppRight from './AppRight';
+import AppMainTop from './AppMainTop';
+import AppMainCenter from './AppMainCenter';
+import AppMainBottom from './AppMainBottom';
 
 
 
-export default function App() {
+export default function AppMain() {
   return (
 
     <Box
@@ -25,13 +25,14 @@ export default function App() {
         fontSize: '0.875rem',
         fontWeight: '700',
         justifyContent: 'space-between',
-        alignItems: 'stretch',
-        display: 'flex'
+        justifyItems: 'stretch',
+        display: 'flex',
+        flexDirection: 'column' 
       }}
     >
-      <AppLeft />
-      <AppMain />
-      <AppRight />
+      <AppMainTop />
+      <AppMainCenter />
+      <AppMainBottom />
     </Box>
 
   );
